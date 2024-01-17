@@ -50,13 +50,61 @@
             </div>
 
             <div class="input-wrapper">
-              <label for="event-categoria">Categoria</label> 
-              </label>
+              <label for="event-categoria">Categoria</label>
               <select id="event-categoria">
                 <option value="live">Ao vivo</option>
                 <option value="podcast">Podcast</option>
                 <option value="mentoria">Mentoria</option>
               </select>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <fieldset class="fieldset-wrapper">
+            <legend>Privacidade</legend>
+
+            <div class="input-wrapper">
+              <label for="event-email"
+                >E-mail do administrador <span>(digite um email válido)</span>
+              </label>
+              <input type="text" id="event-email" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="senha-acesso"
+                >Senha de acesso para os participantes
+                <span>(mínimo 8 caracteres)</span>
+              </label>
+              <input type="password" id="event-senhaacesso" />
+            </div>
+
+            <div class="checkbox-wrapper">
+              <input type="checkbox" id="event-privado" />
+              <label for="event-privado">Evento Privado</label>
+            </div>
+          </fieldset>
+        </fieldset>
+
+        <fieldset>
+          <div class="fieldset-wrapper">
+            <legend>Data e Hora</legend>
+          </div>
+
+          <div class="colunas">
+            <div class="input-wrapper">
+              <label for="event-date">Data</label>
+              <input type="date" id="event-date" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="event-begin">Das</label>
+              <input type="time" id="event-begin" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="event-end">Até</label>
+              <input type="time" id="event-end" />
             </div>
           </div>
         </fieldset>
